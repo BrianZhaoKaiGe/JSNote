@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-63d5a7f9\",\"path\":\"/Page/LookBookInspiration/inspiration/\",\"title\":\"观书有感123\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"Page/LookBookInspiration/inspiration/README.md\"}")
+export const data = JSON.parse("{\"key\":\"v-63d5a7f9\",\"path\":\"/Page/LookBookInspiration/inspiration/\",\"title\":\"观书有感123\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1660018716000,\"contributors\":[{\"name\":\"赵凯歌\",\"email\":\"15137108506@163.com\",\"commits\":1}]},\"filePathRelative\":\"Page/LookBookInspiration/inspiration/README.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

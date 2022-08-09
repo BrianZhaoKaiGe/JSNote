@@ -14,8 +14,13 @@ module.exports = {
     // 默认主题配置
     navbar: [
       {
-        text: "JavaScript",
-        link: "/Page/JavascriptMd/",
+        text: "前端",
+        children:[
+          {
+            text:'JavaScript',
+            link: "/Page/JavascriptMd/",
+          }
+        ]
       },
       {
         text: "面试",
@@ -40,7 +45,10 @@ module.exports = {
           text: "JavaScript基础",
           // 可折叠的侧边栏
           collapsible: true,
-          children: ['/Page/JavascriptMd/jsNote/',],
+          children: [
+            '/Page/JavascriptMd/jsNote/cookie.md',
+            '/Page/JavascriptMd/jsNote/tongyuan.md',
+          ]
         },
 
         // es6
@@ -62,7 +70,10 @@ module.exports = {
             {
               text: 'JavaScript基础',
               link: '/Page/Interview/JSquestion/',
-              children: ['/Page/Interview/JSquestion/JsInterView/'],
+              children: [
+                '/Page/Interview/JSquestion/JsInterView/jsInterView1.md',
+                '/Page/Interview/JSquestion/JsInterView/jsInterView2.md',
+              ],
             },
             {
               text: 'React',

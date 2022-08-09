@@ -1,2 +1,2 @@
-# 对于JavaScript基础的一些随笔杂谈
+# 对于JavaScript基础的一些随笔
 
