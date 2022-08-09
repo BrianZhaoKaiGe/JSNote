@@ -1,6 +1,16 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":"首页"},["/index.html","/README.md"]],
-  ["v-1fefc396","/Page/Interview/",{"title":"11111"},["/Page/Interview/index.html","/Page/Interview/README.md"]],
-  ["v-650bf404","/Page/JavascriptMd/",{"title":"javascioe123"},["/Page/JavascriptMd/index.html","/Page/JavascriptMd/README.md"]],
+  ["v-6667edad","/Page/InformalEssay/",{"title":"对于生活的随笔杂谈"},["/Page/InformalEssay/index.html","/Page/InformalEssay/README.md"]],
+  ["v-1fefc396","/Page/Interview/",{"title":"记录收集到的面试题。温故而知新，可以为师矣。"},["/Page/Interview/index.html","/Page/Interview/README.md"]],
+  ["v-650bf404","/Page/JavascriptMd/",{"title":"对于JavaScript基础的一些随笔杂谈"},["/Page/JavascriptMd/index.html","/Page/JavascriptMd/README.md"]],
+  ["v-e5917918","/Page/LookBookInspiration/",{"title":"观书有感"},["/Page/LookBookInspiration/index.html","/Page/LookBookInspiration/README.md"]],
+  ["v-1a1ad706","/Page/InformalEssay/Life/",{"title":"life"},["/Page/InformalEssay/Life/index.html","/Page/InformalEssay/Life/README.md"]],
+  ["v-77d0f88b","/Page/Interview/JSquestion/",{"title":"JavaScript基础面试题"},["/Page/Interview/JSquestion/index.html","/Page/Interview/JSquestion/README.md"]],
+  ["v-42e658cc","/Page/JavascriptMd/ECMAScript6/",{"title":"es6"},["/Page/JavascriptMd/ECMAScript6/index.html","/Page/JavascriptMd/ECMAScript6/README.md"]],
+  ["v-42e42fdf","/Page/Interview/ReactQuestion/",{"title":"React面试题"},["/Page/Interview/ReactQuestion/index.html","/Page/Interview/ReactQuestion/README.md"]],
+  ["v-522113a0","/Page/JavascriptMd/jsNote/",{"title":"888888888"},["/Page/JavascriptMd/jsNote/index.html","/Page/JavascriptMd/jsNote/README.md"]],
+  ["v-63d5a7f9","/Page/LookBookInspiration/inspiration/",{"title":"观书有感123"},["/Page/LookBookInspiration/inspiration/index.html","/Page/LookBookInspiration/inspiration/README.md"]],
+  ["v-3bf835fc","/Page/Interview/JSquestion/JsInterView/",{"title":"并发请求时，一个请求完成后再请求下一个（Promise）"},["/Page/Interview/JSquestion/JsInterView/index.html","/Page/Interview/JSquestion/JsInterView/README.md"]],
+  ["v-2ad67fae","/Page/Interview/ReactQuestion/ReactInterView/",{"title":"Reac问题一览"},["/Page/Interview/ReactQuestion/ReactInterView/index.html","/Page/Interview/ReactQuestion/ReactInterView/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]

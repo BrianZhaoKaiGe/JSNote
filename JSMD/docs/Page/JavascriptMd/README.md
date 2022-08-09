@@ -1,18 +1,2 @@
-# javascioe123
-
-```js
-    function fun(){
-         echo "这是一句非常牛逼的代码";
-    }
-    fun();
-      copyCode({
-      pure:true
-    }),  copyCode({
-      pure:true
-    }),  copyCode({
-      pure:true
-    }),  copyCode({
-      pure:true
-    }),
-```
+# 对于JavaScript基础的一些随笔杂谈
 

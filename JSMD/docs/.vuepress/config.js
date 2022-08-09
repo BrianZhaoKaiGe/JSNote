@@ -21,37 +21,79 @@ module.exports = {
         text: "面试",
         link: "/Page/Interview/",
       },
+      {
+        text: "随笔杂谈",
+        link: "/Page/InformalEssay/",
+      },
+      {
+        text: "观书有感",
+        link: "/Page/LookBookInspiration/",
+      },
     ],
     // 侧边栏
     sidebar: {
-      //
+
+      // JavaScript
       "/Page/JavascriptMd/": [
+         // JavaScript基础
         {
-          text: "微前端",
+          text: "JavaScript基础",
+          // 可折叠的侧边栏
+          collapsible: true,
+          children: ['/Page/JavascriptMd/jsNote/',],
+        },
+
+        // es6
+        {
+          text: "ES6",
+          // 可折叠的侧边栏
+          collapsible: true,
+          children: ["/Page/JavascriptMd/ECMAScript6/"],
+        },
+      ],
+
+      // 面试
+      "/Page/Interview/": [
+        {
+          text: "面试题",
           // 可折叠的侧边栏
           collapsible: true,
           children: [
             {
-              text: '这是一段文字',
-              link: 'https://github.com',
-              children: [],
+              text: 'JavaScript基础',
+              link: '/Page/Interview/JSquestion/',
+              children: ['/Page/Interview/JSquestion/JsInterView/'],
+            },
+            {
+              text: 'React',
+              link: '/Page/Interview/ReactQuestion/',
+              children: ['/Page/Interview/ReactQuestion/ReactInterView/'],
             },
           ],
         },
-        {
-          text: "III",
-          link: '/Page/foo/iiii.md'
-        }
       ],
-    },
+      // 随笔杂谈
+      "/Page/InformalEssay/":[
+        {
+          text: '随笔杂谈',
+          link: '/Page/InformalEssay/',
+          children: ['/Page/InformalEssay/Life/README.md'],
+        },
+      ],
 
-    // sidebar:[
-    //   '/Page/',
-    //   '/Page/index copy.md'
-    // ]
+      "/Page/LookBookInspiration/":[
+        {
+          text: '观书有感',
+          link: '/Page/LookBookInspiration/',
+          children: ['/Page/LookBookInspiration/inspiration/'],
+        }
+      ]
+
+    },
   }),
 
   plugins: [
+    // 搜索
     searchPlugin({
       // 配置项
       '/': {
@@ -62,7 +104,7 @@ module.exports = {
       },
       maxSuggestions:10
     }),
-
+    // 复制
     copyCodePlugin({
       // 插件选项
       // pure:true
