@@ -8,6 +8,8 @@ module.exports = {
   port: 8888,
   description: '逝者如斯夫，不舍昼夜',
   colorModeSwitch: true,
+
+
   theme: defaultTheme({
     logo: '/images/logo.png',
     logoDark: '/images/logoDark.png',
@@ -48,6 +50,8 @@ module.exports = {
           children: [
             '/Page/JavascriptMd/jsNote/cookie.md',
             '/Page/JavascriptMd/jsNote/tongyuan.md',
+            '/Page/JavascriptMd/jsNote/storage.md',
+            '/Page/JavascriptMd/jsNote/history.md',
           ]
         },
 
@@ -102,6 +106,9 @@ module.exports = {
 
     },
   }),
+  themeConfig: {
+    lastUpdated: '上次更新', // string | boolean
+  },
 
   plugins: [
     // 搜索
