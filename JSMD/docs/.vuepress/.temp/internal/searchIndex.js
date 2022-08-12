@@ -7,6 +7,39 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "现代JavaScript教程",
+    "headers": [
+      {
+        "level": 2,
+        "title": "爱给网",
+        "slug": "爱给网",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "凌点视频素材网",
+        "slug": "凌点视频素材网",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "新片场",
+        "slug": "新片场",
+        "children": []
+      }
+    ],
+    "path": "/Page/Clutter/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记录收集到的面试题。",
+    "headers": [],
+    "path": "/Page/Interview/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "对于生活的随笔杂谈",
     "headers": [],
     "path": "/Page/InformalEssay/",
@@ -21,16 +54,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "记录收集到的面试题。",
+    "title": "观书有感",
     "headers": [],
-    "path": "/Page/Interview/",
+    "path": "/Page/LookBookInspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "观书有感",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/LookBookInspiration/",
+    "path": "/Page/Interview/JSquestion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React面试题",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -91,6 +131,69 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/history.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Location，URL对象",
+    "headers": [
+      {
+        "level": 2,
+        "title": "location属性",
+        "slug": "location属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方法",
+        "slug": "方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "URL 的编码和解码",
+        "slug": "url-的编码和解码",
+        "children": [
+          {
+            "level": 3,
+            "title": "encodeURI()",
+            "slug": "encodeuri",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "encodeURIComponent()",
+            "slug": "encodeuricomponent",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "decodeURI()",
+            "slug": "decodeuri",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "decodeURIComponent()",
+            "slug": "decodeuricomponent",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "URL 接口",
+        "slug": "url-接口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方法",
+        "slug": "方法-1",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/Location-URL.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -170,20 +273,6 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/tongyuan.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "JavaScript基础面试题",
-    "headers": [],
-    "path": "/Page/Interview/JSquestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "React面试题",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/",
     "pathLocale": "/",
     "extraFields": []
   },

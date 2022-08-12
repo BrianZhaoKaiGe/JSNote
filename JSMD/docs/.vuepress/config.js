@@ -11,10 +11,13 @@ module.exports = {
 
 
   theme: defaultTheme({
+    lastUpdatedText:'上次更新',
+    contributorsText:'作者',
     logo: '/images/logo.png',
     logoDark: '/images/logoDark.png',
     // 默认主题配置
     navbar: [
+     
       {
         text: "前端",
         children:[
@@ -36,6 +39,10 @@ module.exports = {
         text: "观书有感",
         link: "/Page/LookBookInspiration/",
       },
+      {
+        text: "杂七杂八",
+        link: "/Page/Clutter/",
+      },
     ],
     // 侧边栏
     sidebar: {
@@ -52,6 +59,7 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/tongyuan.md',
             '/Page/JavascriptMd/jsNote/storage.md',
             '/Page/JavascriptMd/jsNote/history.md',
+            '/Page/JavascriptMd/jsNote/Location-URL.md',
           ]
         },
 
