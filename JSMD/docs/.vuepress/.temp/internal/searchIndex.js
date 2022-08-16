@@ -7,6 +7,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "对于生活的随笔杂谈",
+    "headers": [],
+    "path": "/Page/InformalEssay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "现代JavaScript教程",
     "headers": [
       {
@@ -40,9 +47,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "对于生活的随笔杂谈",
+    "title": "观书有感",
     "headers": [],
-    "path": "/Page/InformalEssay/",
+    "path": "/Page/LookBookInspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -54,9 +61,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "观书有感",
+    "title": "life",
     "headers": [],
-    "path": "/Page/LookBookInspiration/",
+    "path": "/Page/InformalEssay/Life/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -75,9 +82,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "life",
+    "title": "观书有感123",
     "headers": [],
-    "path": "/Page/InformalEssay/Life/",
+    "path": "/Page/LookBookInspiration/inspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -85,6 +92,32 @@ export const searchIndex = [
     "title": "es6",
     "headers": [],
     "path": "/Page/JavascriptMd/ECMAScript6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Blob 对象",
+    "headers": [
+      {
+        "level": 2,
+        "title": "下载文件，导出文件",
+        "slug": "下载文件-导出文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "读取文件内容",
+        "slug": "读取文件内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "缩略图",
+        "slug": "缩略图",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/BlobObject.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -111,6 +144,74 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/cookie.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "常用 Git 命令清单",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、新建代码库",
+        "slug": "一、新建代码库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、配置",
+        "slug": "二、配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、增加/删除文件",
+        "slug": "三、增加-删除文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、代码提交",
+        "slug": "四、代码提交",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、分支",
+        "slug": "五、分支",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、标签",
+        "slug": "六、标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、查看信息",
+        "slug": "七、查看信息",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、远程同步",
+        "slug": "八、远程同步",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、撤销",
+        "slug": "九、撤销",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、其他",
+        "slug": "十、其他",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/git.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -273,13 +374,6 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/tongyuan.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "观书有感123",
-    "headers": [],
-    "path": "/Page/LookBookInspiration/inspiration/",
     "pathLocale": "/",
     "extraFields": []
   },

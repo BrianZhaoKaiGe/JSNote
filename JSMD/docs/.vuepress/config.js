@@ -60,6 +60,8 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/storage.md',
             '/Page/JavascriptMd/jsNote/history.md',
             '/Page/JavascriptMd/jsNote/Location-URL.md',
+            '/Page/JavascriptMd/jsNote/BlobObject.md',
+            '/Page/JavascriptMd/jsNote/git.md',
           ]
         },
 
