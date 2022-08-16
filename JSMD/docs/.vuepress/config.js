@@ -24,6 +24,10 @@ module.exports = {
           {
             text:'JavaScript',
             link: "/Page/JavascriptMd/",
+          },
+          {
+            text:'React',
+            link: "/Page/ReactMd/",
           }
         ]
       },
@@ -74,6 +78,17 @@ module.exports = {
         },
       ],
 
+      // React
+      '/Page/ReactMd/':[
+        {
+          text: "React",
+          // 可折叠的侧边栏
+          collapsible: true,
+          children: [
+            '/Page/ReactMd/State.md',
+          ]
+        },
+      ],
       // 面试
       "/Page/Interview/": [
         {
