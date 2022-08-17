@@ -4,7 +4,7 @@ title: 首页
 heroImage: /images/book.png
 actions:
   - text: 开启卷王之旅
-    link: /page/foo/
+    link: /Page/JavascriptMd/
     type: secondary
 features:
   - title: 内卷至上

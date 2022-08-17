@@ -33,30 +33,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "对于生活的随笔杂谈",
-    "headers": [],
-    "path": "/Page/InformalEssay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "对于JavaScript基础的一些随笔",
     "headers": [],
     "path": "/Page/JavascriptMd/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "React",
-    "headers": [],
-    "path": "/Page/ReactMd/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "State 的更新可能是异步的",
-    "headers": [],
-    "path": "/Page/ReactMd/State.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -75,9 +54,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "life",
+    "title": "",
     "headers": [],
-    "path": "/Page/InformalEssay/Life/",
+    "path": "/Page/ReactMd/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "State 的更新可能是异步的",
+    "headers": [],
+    "path": "/Page/ReactMd/State.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "对于生活的随笔杂谈",
+    "headers": [],
+    "path": "/Page/InformalEssay/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -388,6 +381,13 @@ export const searchIndex = [
     "title": "观书有感123",
     "headers": [],
     "path": "/Page/LookBookInspiration/inspiration/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "life",
+    "headers": [],
+    "path": "/Page/InformalEssay/Life/",
     "pathLocale": "/",
     "extraFields": []
   },
