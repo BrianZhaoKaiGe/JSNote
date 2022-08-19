@@ -25,7 +25,7 @@ module.exports = {
             link: "/Page/JavascriptMd/",
           },
           {
-            text:'React',
+            text:'React相关',
             link: "/Page/ReactMd/",
           }
         ]
@@ -85,6 +85,7 @@ module.exports = {
           collapsible: true,
           children: [
             '/Page/ReactMd/State.md',
+            '/Page/ReactMd/dva.md',
           ]
         },
       ],
@@ -104,7 +105,7 @@ module.exports = {
               ],
             },
             {
-              text: 'React',
+              text: 'React相关',
               link: '/Page/Interview/ReactQuestion/',
               children: ['/Page/Interview/ReactQuestion/ReactInterView/'],
             },

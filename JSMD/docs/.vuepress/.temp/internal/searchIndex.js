@@ -7,6 +7,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "记录收集到的面试题。",
+    "headers": [],
+    "path": "/Page/Interview/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "对于生活的随笔杂谈",
+    "headers": [],
+    "path": "/Page/InformalEssay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "现代JavaScript教程",
     "headers": [
       {
@@ -40,16 +54,35 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "记录收集到的面试题。",
+    "title": "观书有感",
     "headers": [],
-    "path": "/Page/Interview/",
+    "path": "/Page/LookBookInspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "观书有感",
-    "headers": [],
-    "path": "/Page/LookBookInspiration/",
+    "title": "dva.js使用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "创建UI组件",
+        "slug": "创建ui组件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "定义 Model",
+        "slug": "定义-model",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "连接dva",
+        "slug": "连接dva",
+        "children": []
+      }
+    ],
+    "path": "/Page/ReactMd/dva.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -68,9 +101,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "对于生活的随笔杂谈",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/InformalEssay/",
+    "path": "/Page/Interview/JSquestion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React面试题",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "life",
+    "headers": [],
+    "path": "/Page/InformalEssay/Life/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -364,20 +411,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript基础面试题",
-    "headers": [],
-    "path": "/Page/Interview/JSquestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "React面试题",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "观书有感123",
     "headers": [],
     "path": "/Page/LookBookInspiration/inspiration/",
@@ -385,9 +418,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "life",
+    "title": "Reac问题一览",
     "headers": [],
-    "path": "/Page/InformalEssay/Life/",
+    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -402,13 +435,6 @@ export const searchIndex = [
     "title": "JS ready和onload事件 的 区别",
     "headers": [],
     "path": "/Page/Interview/JSquestion/JsInterView/jsInterView2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Reac问题一览",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
     "pathLocale": "/",
     "extraFields": []
   },
