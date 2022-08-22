@@ -65,6 +65,7 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/Location-URL.md',
             '/Page/JavascriptMd/jsNote/BlobObject.md',
             '/Page/JavascriptMd/jsNote/git.md',
+            '/Page/JavascriptMd/jsNote/jsValue.md',
           ]
         },
 
