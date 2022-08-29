@@ -7,20 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "记录收集到的面试题。",
-    "headers": [],
-    "path": "/Page/Interview/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "对于生活的随笔杂谈",
-    "headers": [],
-    "path": "/Page/InformalEssay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "现代JavaScript教程",
     "headers": [
       {
@@ -47,6 +33,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "对于生活的随笔杂谈",
+    "headers": [],
+    "path": "/Page/InformalEssay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "对于JavaScript基础的一些随笔",
     "headers": [],
     "path": "/Page/JavascriptMd/",
@@ -57,6 +50,13 @@ export const searchIndex = [
     "title": "观书有感",
     "headers": [],
     "path": "/Page/LookBookInspiration/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记录收集到的面试题。",
+    "headers": [],
+    "path": "/Page/Interview/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -101,20 +101,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript基础面试题",
-    "headers": [],
-    "path": "/Page/Interview/JSquestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "React面试题",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "life",
     "headers": [],
     "path": "/Page/InformalEssay/Life/",
@@ -125,6 +111,13 @@ export const searchIndex = [
     "title": "es6",
     "headers": [],
     "path": "/Page/JavascriptMd/ECMAScript6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "四色五入，保留小数点后四位",
+    "headers": [],
+    "path": "/Page/JavascriptMd/beforeuse/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -151,6 +144,38 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/BlobObject.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "浅拷贝，深拷贝",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、理解",
+        "slug": "一、理解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "浅拷贝",
+        "slug": "浅拷贝",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "深拷贝",
+        "slug": "深拷贝",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JSON.parse(JSON.stringify(obj))",
+        "slug": "json-parse-json-stringify-obj",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/clone.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -265,6 +290,50 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/history.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "值的比较",
+    "headers": [
+      {
+        "level": 2,
+        "title": "需要注意的地方",
+        "slug": "需要注意的地方",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "严格的相等",
+        "slug": "严格的相等",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对null和undefined的比较",
+        "slug": "对null和undefined的比较",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "null  VS 0",
+        "slug": "null-vs-0",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "undefined",
+        "slug": "undefined",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/jsValue.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -411,6 +480,56 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "垃圾回收",
+    "headers": [
+      {
+        "level": 2,
+        "title": "可达性（Reachability）",
+        "slug": "可达性-reachability",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一个简单的例子",
+        "slug": "一个简单的例子",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "两个引用",
+        "slug": "两个引用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "相互关联的对象",
+        "slug": "相互关联的对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "无法到达的岛屿",
+        "slug": "无法到达的岛屿",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "内部算法",
+        "slug": "内部算法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/trashrecycling.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "观书有感123",
     "headers": [],
     "path": "/Page/LookBookInspiration/inspiration/",
@@ -418,9 +537,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Reac问题一览",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
+    "path": "/Page/Interview/JSquestion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React面试题",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -435,6 +561,20 @@ export const searchIndex = [
     "title": "JS ready和onload事件 的 区别",
     "headers": [],
     "path": "/Page/Interview/JSquestion/JsInterView/jsInterView2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "new关键字在执行时干了什么？",
+    "headers": [],
+    "path": "/Page/Interview/JSquestion/JsInterView/new.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Reac问题一览",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
     "pathLocale": "/",
     "extraFields": []
   },

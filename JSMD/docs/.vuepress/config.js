@@ -66,6 +66,8 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/BlobObject.md',
             '/Page/JavascriptMd/jsNote/git.md',
             '/Page/JavascriptMd/jsNote/jsValue.md',
+            '/Page/JavascriptMd/jsNote/clone.md',
+            '/Page/JavascriptMd/jsNote/trashrecycling.md',
           ]
         },
 
@@ -75,6 +77,12 @@ module.exports = {
           // 可折叠的侧边栏
           collapsible: true,
           children: ["/Page/JavascriptMd/ECMAScript6/"],
+        },
+        {
+          text: "有用的方法",
+          children: [
+            "/Page/JavascriptMd/beforeuse/"
+          ],
         },
       ],
 
@@ -103,6 +111,7 @@ module.exports = {
               children: [
                 '/Page/Interview/JSquestion/JsInterView/jsInterView1.md',
                 '/Page/Interview/JSquestion/JsInterView/jsInterView2.md',
+                '/Page/Interview/JSquestion/JsInterView/new.md',
               ],
             },
             {
