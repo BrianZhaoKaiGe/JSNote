@@ -7,6 +7,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "对于JavaScript基础的一些随笔",
+    "headers": [],
+    "path": "/Page/JavascriptMd/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "现代JavaScript教程",
     "headers": [
       {
@@ -36,13 +43,6 @@ export const searchIndex = [
     "title": "对于生活的随笔杂谈",
     "headers": [],
     "path": "/Page/InformalEssay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "对于JavaScript基础的一些随笔",
-    "headers": [],
-    "path": "/Page/JavascriptMd/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -101,9 +101,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "life",
+    "title": "四色五入，保留小数点后四位",
     "headers": [],
-    "path": "/Page/InformalEssay/Life/",
+    "path": "/Page/JavascriptMd/beforeuse/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -115,9 +115,40 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "四色五入，保留小数点后四位",
-    "headers": [],
-    "path": "/Page/JavascriptMd/beforeuse/",
+    "title": "数组方法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "添加/删除元素：",
+        "slug": "添加-删除元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "搜索元素：",
+        "slug": "搜索元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "遍历元素：",
+        "slug": "遍历元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "转换数组：",
+        "slug": "转换数组",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他：",
+        "slug": "其他",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/array.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -202,6 +233,76 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/cookie.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "递归和堆栈",
+    "headers": [
+      {
+        "level": 2,
+        "title": "两种思考方式",
+        "slug": "两种思考方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "执行上下文和堆栈",
+        "slug": "执行上下文和堆栈",
+        "children": [
+          {
+            "level": 3,
+            "title": "pow(2, 3)",
+            "slug": "pow-2-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "pow（2, 2)",
+            "slug": "pow-2-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "pow(2, 1)",
+            "slug": "pow-2-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "出口",
+            "slug": "出口",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "递归遍历",
+        "slug": "递归遍历",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "递归结构",
+        "slug": "递归结构",
+        "children": [
+          {
+            "level": 3,
+            "title": "链表",
+            "slug": "链表",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结",
+        "slug": "总结",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/digui.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -526,6 +627,13 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/trashrecycling.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "life",
+    "headers": [],
+    "path": "/Page/InformalEssay/Life/",
     "pathLocale": "/",
     "extraFields": []
   },

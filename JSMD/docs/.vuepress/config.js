@@ -68,6 +68,8 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/jsValue.md',
             '/Page/JavascriptMd/jsNote/clone.md',
             '/Page/JavascriptMd/jsNote/trashrecycling.md',
+            '/Page/JavascriptMd/jsNote/array.md',
+            '/Page/JavascriptMd/jsNote/digui.md',
           ]
         },
 

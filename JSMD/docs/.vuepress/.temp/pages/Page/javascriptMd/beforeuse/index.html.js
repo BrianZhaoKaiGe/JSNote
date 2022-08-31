@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-4035128b\",\"path\":\"/Page/JavascriptMd/beforeuse/\",\"title\":\"四色五入，保留小数点后四位\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"Page/JavascriptMd/beforeuse/README.md\"}")
+export const data = JSON.parse("{\"key\":\"v-4035128b\",\"path\":\"/Page/JavascriptMd/beforeuse/\",\"title\":\"四色五入，保留小数点后四位\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"git\":{\"updatedTime\":1661735403000,\"contributors\":[{\"name\":\"赵凯歌\",\"email\":\"15137108506@163.com\",\"commits\":1}]},\"filePathRelative\":\"Page/JavascriptMd/beforeuse/README.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
