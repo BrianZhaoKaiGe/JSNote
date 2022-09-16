@@ -12,4 +12,32 @@
 <h2 id="爱给网" tabindex="-1"><a class="header-anchor" href="#爱给网" aria-hidden="true">#</a> <a href="https://www.aigei.com/" target="_blank" rel="noopener noreferrer">爱给网<ExternalLinkIcon/></a></h2>
 <h2 id="凌点视频素材网" tabindex="-1"><a class="header-anchor" href="#凌点视频素材网" aria-hidden="true">#</a> <a href="https://www.aigei.com/" target="_blank" rel="noopener noreferrer"> 凌点视频素材网 <ExternalLinkIcon/></a></h2>
 <h2 id="新片场" tabindex="-1"><a class="header-anchor" href="#新片场" aria-hidden="true">#</a> <a href="https://stock.xinpianchang.com/" target="_blank" rel="noopener noreferrer">新片场<ExternalLinkIcon/></a></h2>
+<h1 id="vscode插件" tabindex="-1"><a class="header-anchor" href="#vscode插件" aria-hidden="true">#</a> VScode插件</h1>
+<p>auto rename tag</p>
+<p>修改标签对</p>
+<p>Color Picker</p>
+<p>颜色选择</p>
+<p>ES7+ React/Redux/React-Native snippets</p>
+<p>react提示插件</p>
+<p>GitLens — Git supercharged</p>
+<p>显示git作者，提交时间</p>
+<p>Image preview</p>
+<p>图片显示插件</p>
+<p>Import Cost</p>
+<p>显示引入包大小</p>
+<p>IntelliCode</p>
+<p>代码提示</p>
+<p>JavaScript (ES6) code snippets</p>
+<p>js代码提示</p>
+<p>Material Icon Theme</p>
+<p>文件夹主题</p>
+<p>open in browser</p>
+<p>打开浏览器</p>
+<p>Path Intellisense</p>
+<p>路径提示</p>
+<h1 id="好用的插件" tabindex="-1"><a class="header-anchor" href="#好用的插件" aria-hidden="true">#</a> 好用的插件</h1>
+<p>Snipaste.exe</p>
+<p>截图插件</p>
+<p>utools</p>
+<p>快捷打开</p>
 </div></template>

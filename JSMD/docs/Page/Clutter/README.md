@@ -25,3 +25,60 @@
 ## [ 凌点视频素材网 ](https://www.aigei.com/)
 
 ## [新片场]( https://stock.xinpianchang.com/ )
+# VScode插件
+
+auto rename tag
+
+修改标签对
+
+ Color Picker 
+
+颜色选择
+
+ ES7+ React/Redux/React-Native snippets 
+
+react提示插件
+
+ GitLens — Git supercharged 
+
+显示git作者，提交时间
+
+ Image preview 
+
+图片显示插件
+
+ Import Cost 
+
+显示引入包大小
+
+ IntelliCode 
+
+代码提示
+
+ JavaScript (ES6) code snippets 
+
+js代码提示
+
+ Material Icon Theme
+
+文件夹主题
+
+ open in browser
+
+打开浏览器
+
+ Path Intellisense 
+
+路径提示
+
+
+
+# 好用的插件
+
+Snipaste.exe 
+
+截图插件
+
+utools
+
+快捷打开
