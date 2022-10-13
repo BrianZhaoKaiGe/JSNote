@@ -70,6 +70,7 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/trashrecycling.md',
             '/Page/JavascriptMd/jsNote/array.md',
             '/Page/JavascriptMd/jsNote/digui.md',
+            '/Page/JavascriptMd/jsNote/proxy.md',
           ]
         },
 
@@ -80,6 +81,7 @@ module.exports = {
           collapsible: true,
           children: ["/Page/JavascriptMd/ECMAScript6/"],
         },
+        
         {
           text: "有用的方法",
           children: [

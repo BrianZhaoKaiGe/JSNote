@@ -33,13 +33,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "记录收集到的面试题。",
-    "headers": [],
-    "path": "/Page/Interview/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "对于生活的随笔杂谈",
     "headers": [],
     "path": "/Page/InformalEssay/",
@@ -47,9 +40,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "观书有感",
+    "title": "记录收集到的面试题。",
     "headers": [],
-    "path": "/Page/LookBookInspiration/",
+    "path": "/Page/Interview/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -101,16 +94,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript基础面试题",
+    "title": "观书有感",
     "headers": [],
-    "path": "/Page/Interview/JSquestion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "React面试题",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/",
+    "path": "/Page/LookBookInspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -122,9 +108,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "观书有感123",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/LookBookInspiration/inspiration/",
+    "path": "/Page/Interview/JSquestion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React面试题",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -530,6 +523,50 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Proxy代理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "带有 “get” 捕捉器的默认值",
+        "slug": "带有-get-捕捉器的默认值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 “set” 捕捉器进行验证",
+        "slug": "使用-set-捕捉器进行验证",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 “ownKeys” 和 “getOwnPropertyDescriptor” 进行迭代",
+        "slug": "使用-ownkeys-和-getownpropertydescriptor-进行迭代",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "具有 “deleteProperty” 和其他捕捉器的受保护属性",
+        "slug": "具有-deleteproperty-和其他捕捉器的受保护属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "带有 “has” 捕捉器的 “in range”",
+        "slug": "带有-has-捕捉器的-in-range",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "包装函数：\"apply\"",
+        "slug": "包装函数-apply",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/proxy.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "888888888",
     "headers": [],
     "path": "/Page/JavascriptMd/jsNote/",
@@ -655,6 +692,13 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/trashrecycling.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "观书有感123",
+    "headers": [],
+    "path": "/Page/LookBookInspiration/inspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
