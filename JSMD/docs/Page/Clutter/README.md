@@ -47,6 +47,26 @@ react提示插件
 
 图片显示插件
 
+ KoroFileHeader
+
+ 注释插件
+
+
+
+```javascript
+ 配置：
+	"fileheader.customMade": {        
+       "Description": "", // 介绍文件的作用、文件的入参、出参。   "Author": "", // 同时获取用户名与邮箱           
+        "Author": "zhaokaige", 		
+       "Date": "Do not edit", // 文件创建时间(不变)    	
+    },    
+    "fileheader.cursorMode": {        
+        "description": "", // 函数注释生成之后，光标移动到这里   
+        "param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行        
+        "return": "",    
+    }, 
+```
+
  Import Cost 
 
 显示引入包大小

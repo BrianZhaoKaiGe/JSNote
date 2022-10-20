@@ -23,7 +23,20 @@
 <p>显示git作者，提交时间</p>
 <p>Image preview</p>
 <p>图片显示插件</p>
-<p>Import Cost</p>
+<p>KoroFileHeader</p>
+<p>注释插件</p>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code> 配置：
+	<span class="token string-property property">"fileheader.customMade"</span><span class="token operator">:</span> <span class="token punctuation">{</span>        
+       <span class="token string-property property">"Description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 介绍文件的作用、文件的入参、出参。   "Author": "", // 同时获取用户名与邮箱           </span>
+        <span class="token string-property property">"Author"</span><span class="token operator">:</span> <span class="token string">"zhaokaige"</span><span class="token punctuation">,</span> 		
+       <span class="token string-property property">"Date"</span><span class="token operator">:</span> <span class="token string">"Do not edit"</span><span class="token punctuation">,</span> <span class="token comment">// 文件创建时间(不变)    	</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>    
+    <span class="token string-property property">"fileheader.cursorMode"</span><span class="token operator">:</span> <span class="token punctuation">{</span>        
+        <span class="token string-property property">"description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 函数注释生成之后，光标移动到这里   </span>
+        <span class="token string-property property">"param"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行        </span>
+        <span class="token string-property property">"return"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>    
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Import Cost</p>
 <p>显示引入包大小</p>
 <p>IntelliCode</p>
 <p>代码提示</p>

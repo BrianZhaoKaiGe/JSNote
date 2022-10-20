@@ -4,7 +4,7 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 const { copyCodePlugin } = require("vuepress-plugin-copy-code2");
 module.exports = {
   lang: 'zh-CN',
-  title: '卷王同志，你好',
+  title: '革命尚未成功，同志仍须努力',
   port: 8888,
   description: '逝者如斯夫，不舍昼夜',
   colorModeSwitch: true,
@@ -71,6 +71,7 @@ module.exports = {
             '/Page/JavascriptMd/jsNote/array.md',
             '/Page/JavascriptMd/jsNote/digui.md',
             '/Page/JavascriptMd/jsNote/proxy.md',
+            '/Page/JavascriptMd/jsNote/eventloop.md',
           ]
         },
 
@@ -84,6 +85,7 @@ module.exports = {
         
         {
           text: "有用的方法",
+          collapsible: true,
           children: [
             "/Page/JavascriptMd/beforeuse/"
           ],

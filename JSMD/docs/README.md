@@ -3,7 +3,7 @@ home: true
 title: 首页
 heroImage: /images/book.png
 actions:
-  - text: 开启卷王之旅
+  - text: 开始革命
     link: /Page/JavascriptMd/
     type: secondary
 features:

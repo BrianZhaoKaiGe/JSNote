@@ -33,13 +33,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "对于生活的随笔杂谈",
-    "headers": [],
-    "path": "/Page/InformalEssay/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "记录收集到的面试题。",
     "headers": [],
     "path": "/Page/Interview/",
@@ -101,16 +94,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "life",
+    "title": "对于生活的随笔杂谈",
     "headers": [],
-    "path": "/Page/InformalEssay/Life/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "JavaScript基础面试题",
-    "headers": [],
-    "path": "/Page/Interview/JSquestion/",
+    "path": "/Page/InformalEssay/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -122,16 +108,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "四色五入，保留小数点后四位",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/JavascriptMd/beforeuse/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "es6",
-    "headers": [],
-    "path": "/Page/JavascriptMd/ECMAScript6/",
+    "path": "/Page/Interview/JSquestion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -324,6 +303,26 @@ export const searchIndex = [
       }
     ],
     "path": "/Page/JavascriptMd/jsNote/digui.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "事件循环：微任务和宏任务",
+    "headers": [
+      {
+        "level": 2,
+        "title": "事件循环",
+        "slug": "事件循环",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "宏任务和微任务",
+        "slug": "宏任务和微任务",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/jsNote/eventloop.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -696,9 +695,37 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "公共方法",
+    "headers": [],
+    "path": "/Page/JavascriptMd/beforeuse/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "es6",
+    "headers": [],
+    "path": "/Page/JavascriptMd/ECMAScript6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "观书有感123",
     "headers": [],
     "path": "/Page/LookBookInspiration/inspiration/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "life",
+    "headers": [],
+    "path": "/Page/InformalEssay/Life/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Reac问题一览",
+    "headers": [],
+    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -720,13 +747,6 @@ export const searchIndex = [
     "title": "new关键字在执行时干了什么？",
     "headers": [],
     "path": "/Page/Interview/JSquestion/JsInterView/new.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Reac问题一览",
-    "headers": [],
-    "path": "/Page/Interview/ReactQuestion/ReactInterView/",
     "pathLocale": "/",
     "extraFields": []
   },
