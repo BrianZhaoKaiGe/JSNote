@@ -21,6 +21,9 @@
 # 视频剪辑
 
 ## [爱给网](https://www.aigei.com/)
+# 中国色
+
+## [中国色](http://zhongguose.com/)
 
 ## [ 凌点视频素材网 ](https://www.aigei.com/)
 
@@ -55,16 +58,36 @@ react提示插件
 
 ```javascript
  配置：
-	"fileheader.customMade": {        
-       "Description": "", // 介绍文件的作用、文件的入参、出参。   "Author": "", // 同时获取用户名与邮箱           
-        "Author": "zhaokaige", 		
-       "Date": "Do not edit", // 文件创建时间(不变)    	
-    },    
-    "fileheader.cursorMode": {        
-        "description": "", // 函数注释生成之后，光标移动到这里   
-        "param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行        
-        "return": "",    
-    }, 
+	"fileheader.customMade": {
+		"module": "", // 介绍文件的作用、文件的入参、出参。
+		"author": "zhaokaige", // 用户名
+		"Date": "Do not edit", // 文件创建时间(不变)
+	},
+	"fileheader.cursorMode": {
+		"description": "", // 函数注释生成之后，光标移动到这里
+		"param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行
+	},
+	"fileheader.configObj": {
+		"functionWideNum": 12,
+		"wideSame": true, // 设置为true开启
+		"wideNum": 8, // 字段长度 默认为13
+		"language": {
+			// 普通后缀文件
+			"jsx/js/ts/tsx": {
+				"head": "/**",
+				"middle": " * @",
+				"end": " */",
+				// 函数自定义注释符号：如果有此配置 会默认使用
+				// "functionSymbol": {
+				// 	"head": "/******* ", // 统一增加几个*号
+				// 	"middle": " * @",
+				// 	"end": " */"
+				//   }
+			},
+		},
+		"dateFormat": "YYYY-MM-DD",
+		"autoAdd": false,
+	},
 ```
 
  Import Cost 
