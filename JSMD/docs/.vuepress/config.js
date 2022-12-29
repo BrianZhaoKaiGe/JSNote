@@ -82,7 +82,6 @@ module.exports = {
           collapsible: true,
           children: ["/Page/JavascriptMd/ECMAScript6/"],
         },
-        
         {
           text: "有用的方法",
           collapsible: true,
@@ -90,6 +89,13 @@ module.exports = {
             "/Page/JavascriptMd/beforeuse/"
           ],
         },
+        // 踩坑日记
+        {
+        text: "踩坑日记及日常记录",
+        // 可折叠的侧边栏
+        collapsible: true,
+        children: ["/Page/JavascriptMd/TreadingPit/"],
+      },
       ],
 
       // React

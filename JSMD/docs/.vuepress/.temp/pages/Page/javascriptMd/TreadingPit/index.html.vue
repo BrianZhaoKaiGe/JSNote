@@ -1,0 +1,6 @@
+<template><div><h1 id="日常记录及踩坑日记" tabindex="-1"><a class="header-anchor" href="#日常记录及踩坑日记" aria-hidden="true">#</a> 日常记录及踩坑日记</h1>
+<h2 id="_1-深拷贝dom节点" tabindex="-1"><a class="header-anchor" href="#_1-深拷贝dom节点" aria-hidden="true">#</a> 1.深拷贝DOM节点</h2>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> node <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">"html"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//深拷贝DOM节点</span>
+<span class="token keyword">const</span> newNode <span class="token operator">=</span> node<span class="token punctuation">.</span><span class="token function">cloneNode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>

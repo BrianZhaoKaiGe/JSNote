@@ -17,6 +17,12 @@ export const searchIndex = [
       },
       {
         "level": 2,
+        "title": "中国色",
+        "slug": "中国色-1",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "凌点视频素材网",
         "slug": "凌点视频素材网",
         "children": []
@@ -40,9 +46,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "对于生活的随笔杂谈",
+    "headers": [],
+    "path": "/Page/InformalEssay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "对于JavaScript基础的一些随笔",
     "headers": [],
     "path": "/Page/JavascriptMd/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "观书有感",
+    "headers": [],
+    "path": "/Page/LookBookInspiration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -87,16 +107,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "观书有感",
+    "title": "JavaScript基础面试题",
     "headers": [],
-    "path": "/Page/LookBookInspiration/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "对于生活的随笔杂谈",
-    "headers": [],
-    "path": "/Page/InformalEssay/",
+    "path": "/Page/Interview/JSquestion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -108,9 +121,37 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "JavaScript基础面试题",
+    "title": "life",
     "headers": [],
-    "path": "/Page/Interview/JSquestion/",
+    "path": "/Page/InformalEssay/Life/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "公共方法",
+    "headers": [],
+    "path": "/Page/JavascriptMd/beforeuse/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "es6",
+    "headers": [],
+    "path": "/Page/JavascriptMd/ECMAScript6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "日常记录及踩坑日记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.深拷贝DOM节点",
+        "slug": "_1-深拷贝dom节点",
+        "children": []
+      }
+    ],
+    "path": "/Page/JavascriptMd/TreadingPit/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -695,30 +736,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "公共方法",
-    "headers": [],
-    "path": "/Page/JavascriptMd/beforeuse/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "es6",
-    "headers": [],
-    "path": "/Page/JavascriptMd/ECMAScript6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "观书有感123",
     "headers": [],
     "path": "/Page/LookBookInspiration/inspiration/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "life",
-    "headers": [],
-    "path": "/Page/InformalEssay/Life/",
     "pathLocale": "/",
     "extraFields": []
   },

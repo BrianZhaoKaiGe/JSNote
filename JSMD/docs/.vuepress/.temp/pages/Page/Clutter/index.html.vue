@@ -10,6 +10,8 @@
 <h1 id="学习教育导航" tabindex="-1"><a class="header-anchor" href="#学习教育导航" aria-hidden="true">#</a> <a href="https://nav.guidebook.top/" target="_blank" rel="noopener noreferrer">学习教育导航<ExternalLinkIcon/></a></h1>
 <h1 id="视频剪辑" tabindex="-1"><a class="header-anchor" href="#视频剪辑" aria-hidden="true">#</a> 视频剪辑</h1>
 <h2 id="爱给网" tabindex="-1"><a class="header-anchor" href="#爱给网" aria-hidden="true">#</a> <a href="https://www.aigei.com/" target="_blank" rel="noopener noreferrer">爱给网<ExternalLinkIcon/></a></h2>
+<h1 id="中国色" tabindex="-1"><a class="header-anchor" href="#中国色" aria-hidden="true">#</a> 中国色</h1>
+<h2 id="中国色-1" tabindex="-1"><a class="header-anchor" href="#中国色-1" aria-hidden="true">#</a> <a href="http://zhongguose.com/" target="_blank" rel="noopener noreferrer">中国色<ExternalLinkIcon/></a></h2>
 <h2 id="凌点视频素材网" tabindex="-1"><a class="header-anchor" href="#凌点视频素材网" aria-hidden="true">#</a> <a href="https://www.aigei.com/" target="_blank" rel="noopener noreferrer"> 凌点视频素材网 <ExternalLinkIcon/></a></h2>
 <h2 id="新片场" tabindex="-1"><a class="header-anchor" href="#新片场" aria-hidden="true">#</a> <a href="https://stock.xinpianchang.com/" target="_blank" rel="noopener noreferrer">新片场<ExternalLinkIcon/></a></h2>
 <h1 id="vscode插件" tabindex="-1"><a class="header-anchor" href="#vscode插件" aria-hidden="true">#</a> VScode插件</h1>
@@ -26,17 +28,37 @@
 <p>KoroFileHeader</p>
 <p>注释插件</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code> 配置：
-	<span class="token string-property property">"fileheader.customMade"</span><span class="token operator">:</span> <span class="token punctuation">{</span>        
-       <span class="token string-property property">"Description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 介绍文件的作用、文件的入参、出参。   "Author": "", // 同时获取用户名与邮箱           </span>
-        <span class="token string-property property">"Author"</span><span class="token operator">:</span> <span class="token string">"zhaokaige"</span><span class="token punctuation">,</span> 		
-       <span class="token string-property property">"Date"</span><span class="token operator">:</span> <span class="token string">"Do not edit"</span><span class="token punctuation">,</span> <span class="token comment">// 文件创建时间(不变)    	</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>    
-    <span class="token string-property property">"fileheader.cursorMode"</span><span class="token operator">:</span> <span class="token punctuation">{</span>        
-        <span class="token string-property property">"description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 函数注释生成之后，光标移动到这里   </span>
-        <span class="token string-property property">"param"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行        </span>
-        <span class="token string-property property">"return"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>    
-    <span class="token punctuation">}</span><span class="token punctuation">,</span> 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Import Cost</p>
+	<span class="token string-property property">"fileheader.customMade"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string-property property">"module"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 介绍文件的作用、文件的入参、出参。</span>
+		<span class="token string-property property">"author"</span><span class="token operator">:</span> <span class="token string">"zhaokaige"</span><span class="token punctuation">,</span> <span class="token comment">// 用户名</span>
+		<span class="token string-property property">"Date"</span><span class="token operator">:</span> <span class="token string">"Do not edit"</span><span class="token punctuation">,</span> <span class="token comment">// 文件创建时间(不变)</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string-property property">"fileheader.cursorMode"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string-property property">"description"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// 函数注释生成之后，光标移动到这里</span>
+		<span class="token string-property property">"param"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span> <span class="token comment">// param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token string-property property">"fileheader.configObj"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string-property property">"functionWideNum"</span><span class="token operator">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+		<span class="token string-property property">"wideSame"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 设置为true开启</span>
+		<span class="token string-property property">"wideNum"</span><span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token comment">// 字段长度 默认为13</span>
+		<span class="token string-property property">"language"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 普通后缀文件</span>
+			<span class="token string-property property">"jsx/js/ts/tsx"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+				<span class="token string-property property">"head"</span><span class="token operator">:</span> <span class="token string">"/**"</span><span class="token punctuation">,</span>
+				<span class="token string-property property">"middle"</span><span class="token operator">:</span> <span class="token string">" * @"</span><span class="token punctuation">,</span>
+				<span class="token string-property property">"end"</span><span class="token operator">:</span> <span class="token string">" */"</span><span class="token punctuation">,</span>
+				<span class="token comment">// 函数自定义注释符号：如果有此配置 会默认使用</span>
+				<span class="token comment">// "functionSymbol": {</span>
+				<span class="token comment">// 	"head": "/******* ", // 统一增加几个*号</span>
+				<span class="token comment">// 	"middle": " * @",</span>
+				<span class="token comment">// 	"end": " */"</span>
+				<span class="token comment">//   }</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token string-property property">"dateFormat"</span><span class="token operator">:</span> <span class="token string">"YYYY-MM-DD"</span><span class="token punctuation">,</span>
+		<span class="token string-property property">"autoAdd"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Import Cost</p>
 <p>显示引入包大小</p>
 <p>IntelliCode</p>
 <p>代码提示</p>
